@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "image": "src/assets/images/joggers.jpeg",
+        "name": "Knitted Joggers"
+    },
+    {
+        "id": "2",
+        "image": "src/assets/images/FullSleeve.jpeg",
+        "name": "Full Sleeve"
+    },
+    {
+        "id": "3",
+        "image": "src/assets/images/Active_T-Shirts.jpeg",
+        "name": "Active T Shirt"
+    },
+    {
+        "id": "4",
+        "image": "src/assets/images/Urban-Shirts.jpeg",
+        "name": "Urban Shirts"
+    },
+    {
+        "id": "5",
+        "image": "src/assets/images/bag-9.jpeg",
+        "name": "Brown Bag"
+    },
+    {
+        "id": "6",
+        "image": "src/assets/images/watch-2.jpeg",
+        "name": "Wrist Watch"
+    }
+]

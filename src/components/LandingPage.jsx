@@ -5,7 +5,7 @@ import Button from './Button';
 
 const TextDisplay = function() {
     return (
-        <div className="absolute top-[20%] left-[15%] flex flex-col gap-3 ">
+        <div className="absolute top-[20%] left-[15%] flex flex-col gap-4 ">
             <h5 className="text-[32px] text-primaryCol-100 font-normal leading-[37.77px] tracking-[0.16px] ">T-shirt / Tops</h5>
             <h1 className="text-[68px] text-primaryCol-100 leading-[83.62px] font-normal tracking-[0.31px] w-[60%] ">Summer Value Pack</h1>
             <h4 className="text-[32px] text-primaryCol-100 font-normal leading-[37.77px] tracking-[0.16px] ">cool / colorful / comfy</h4>
