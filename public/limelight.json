@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "image": "src/assets/images/limelight_3.jpeg",
+        "name": "Black sweeter and hoodies",
+        "price": "10000",
+        "brand": "Jhanvi’s  Brand"
+    },
+    {
+        "id": "2",
+        "image": "src/assets/images/limelight_4.jpeg",
+        "name": "Line pattern black with sweeter",
+        "price": "15000",
+        "brand": "AS’s  Brand"
+    },
+    {
+        "id": "3",
+        "image": "src/assets/images/limeelight_2.jpeg",
+        "name": "black shorts",
+        "price": "7000",
+        "brand": "MM’s  Brand"
+    },
+    {
+        "id": "4",
+        "image": "src/assets/images/limelight_1.jpeg",
+        "name": "Levender Hoodies With brown",
+        "price": "12000",
+        "brand": "Nike’s  Brand"
+    }
+]

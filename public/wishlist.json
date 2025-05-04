@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "name": "Blue Flower Print Crop Top ",
+        "color": "Blue",
+        "qty": "5",
+        "price": "3000",
+        "image": "src/assets/images/Hoodies_female.png"
+    },
+    {
+        "id": "2",
+        "name": "Yellow Flower Print Crop Top ",
+        "color": "Yellow",
+        "qty": "2",
+        "price": "3000",
+        "image": "src/assets/images/Coats_female.png"
+    },
+    {
+        "id": "3",
+        "name": "White Hoodies Long Sleeve",
+        "color": "White",
+        "qty": "10",
+        "price": "3000",
+        "image": "src/assets/images/Tees-female.jpeg"
+    },
+    {
+        "id": "4",
+        "name": "Brown Crop Top ",
+        "color": "Brown",
+        "qty": "7",
+        "price": "3000",
+        "image": "src/assets/images/Hoodies_female.png"
+    }
+]

@@ -12,11 +12,118 @@
 @theme {
   --color-primaryCol-100: #ffffff;
   --color-searchInputCol-100: #F6F6F6;
+  --color-notificationCol-100: #FEFEFE;
   --color-textColor-100: #807D7E;
   --color-shadowColor-100: #00000066;
   --color-purpleCol-100: #8A33FD;
   --color-sectionHeaderCol-100: #3C4242;
+  --color-topbrandCol-100: #28221F;
+  --color-arrowCol-100: #797979;
+  --color-feedbackCol-100: #BEBCBD;
+  --color-starCol-100: #EDD146;
+  --color-greenNotifyCol-100: #21DE21;
+  --color-popUpDesCol-100: #A09E9E;
+  --color-shadowCol-100: #00000040;
+  --color-filterProCol--100: #8A8989;
+  --color-productCol-100: #3F4646;
+
+
+
+
+
+
+
+  --color-colred-220: #FF0000;
+  --color-colgreen-220: #008000;
+  --color-colblue-220: #0000FF;
+  --color-colyellow-220: #FF0;
+  --color-colcyan-220: #00FFFF;
+  --color-colmagenta-220: #FF00FF;
+  --color-colblack-220: #000000;
+  --color-colwhite-220: #FFFFFF;
+  --color-colgray-220: #808080;
+  --color-colorange-220: #FFA500;
+  --color-colpurple-220: #800080;
+  --color-colpink-220: #FFC0CB;
+  --color-collime-220: #00FF00;
+  --color-colteal-220: #008080;
+  --color-colnavy-220: #000080;
+  --color-cololive-220: #808000;
+  --color-colmaroon-220: #800000;
+  --color-colbrown-220: #A52A2A;
+  --color-colcoral-220: #FF7F50;
+  --color-colgold-220: #FFD700;
+  --color-colivory-220: #FFFFF0;
+  --color-colkhaki-220: #F0E68C;
+  --color-collavender-220: #E6E6FA;
+  --color-colpeach-220: #FFDAB9;
+  --color-colplum-220: #DDA0DD;
+  --color-colsilver-220: #C0C0C0;
+  --color-colturquoise-220: #40E0D0;
+  --color-colviolet-220: #EE82EE;
+  --color-colwheat-220: #F5DEB3;
+  --color-colmint-220: #98FF98;
+  --color-colskyblue-220: #87CEEB;
+  --color-colforestgreen-220: #228B22;
+  --color-colmidnightblue-220: #191970;
+  --color-colslategray-220: #708090;
+  --color-colchocolate-220: #D2691E;
+  --color-colfirebrick-220: #B22222;
+  --color-colcrimson-220: #DC143C;
+  --color-coltomato-220: #FF6347;
+  --color-colhoneydew-220: #F0FFF0;
+  --color-colaqua-220: #00FFFF;
+  --color-colazure-220: #F0FFFF;
+  --color-colbeige-220: #F5F5DC;
+  --color-colbisque-220: #FFE4C4;
+  --color-colblueviolet-220: #8A2BE2;
+  --color-colchartreuse-220: #7FFF00;
+  --color-colcornflowerblue-220: #6495ED;
+  --color-coldarkgoldenrod-220: #B8860B;
+  --color-coldarkolivegreen-220: #556B2F;
+  --color-coldarkorchid-220: #9932CC;
+  --color-coldarksalmon-220: #E9967A;
+  --color-coldeeppink-220: #FF1493;
+  --color-coldodgerblue-220: #1E90FF;
+  --color-colfloralwhite-220: #FFFAF0;
+  --color-colindianred-220: #CD5C5C;
+  --color-collawngreen-220: #7CFC00;
+  --color-collemonchiffon-220: #FFFACD;
+  --color-collightcoral-220: #F08080;
+  --color-collightseagreen-220: #20B2AA;
+  --color-collightslategray-220: #778899;
+  --color-colmistyrose-220: #FFE4E1;
+  --color-colpapayawhip-220: #FFEFD5;
+  --color-colpalegoldenrod-220: #EEE8AA;
+  --color-colpaleturquoise-220: #AFEEEE;
+  --color-colsaddlebrown-220: #8B4513;
+  --color-colseagreen-220: #2E8B57;
+  --color-colthistle-220: #D8BFD8;
+  --color-colorchid-220: #DA70D6;
+  --color-colrosybrown-220: #BC8F8F;
+  --color-colsteelblue-220: #4682B4;
+  --color-collightpink-220: #FFB6C1;
+  --color-colpalegreen-220: #98FB98;
+  --color-coldarkseagreen-220: #8FBC8F;
+  --color-coldarkslategray-220: #2F4F4F;
+  --color-colburlywood-220: #DEB887;
+  --color-colgainsboro-220: #DCDCDC;
+  --color-colpowderblue-220: #B0E0E6;
+  --color-colsnow-220: #FFFAFA;
+  --color-coltan-220: #D2B48C;
+  --color-collightskyblue-220: #87CEFA;
+  --color-collightsteelblue-220: #B0C4DE;
+  --color-coldarkblue-220: #00008B;
+  --color-colmediumslateblue-220: #7B68EE;
+  --color-colperu-220: #CD853F;
+  --color-colhotpink-220: #FF69B4;
+  --color-colroyalblue-220: #4169E1;
+  --color-coldimgray-220: #696969;
+  --color-colgoldenrod-220: #DAA520;
+  --color-colslateblue-220: #6A5ACD;
+  --color-collightgoldenrodyellow-220: #FAFAD2;
 }
+
 
 :root {
   font-family: 'Montserrat', sans-serif;
@@ -24,4 +131,82 @@
   font-weight: 400;
 
 }
+
+.starStyle {
+  @apply inline-block text-starCol-100
+}
+
+.slider-container {
+  @apply w-full text-center mx-auto my-[20px] p-4
+}
+
+.slider {
+  @apply w-full relative flex items-center justify-center
+}
+
+
+.red {
+  @apply bg-colred-220
+}
+.green {
+  @apply bg-colgreen-220
+}
+.blue {
+  @apply bg-colblue-220
+}
+.yellow {
+  @apply bg-colyellow-220
+}
+.cyan {
+  @apply bg-colcyan-220
+}
+.cyan {
+  @apply bg-colcyan-220
+}
+.magenta {
+  @apply bg-colmagenta-220
+}
+.black {
+  @apply bg-colblack-220
+}
+.white {
+  @apply bg-colwhite-220
+}
+.gray {
+  @apply bg-colgray-220
+}
+.orange {
+  @apply bg-colorange-220
+}
+.purple {
+  @apply bg-colpurple-220
+}
+.pink {
+  @apply bg-colpink-220
+}
+
+.active-color {
+  @apply bg-topbrandCol-100 text-searchInputCol-100 transition-all
+}
+
+.paymentStyle-1 {
+  @apply h-[44px] w-[44px] bg-searchInputCol-100 text-sectionHeaderCol-100 p-3 rounded-[50%] 
+}
+
+.isActivePreviewModal {
+  @apply text-[18px] leading-[100%] font-semibold text-sectionHeaderCol-100 border-b-[1.4px] border-b-sectionHeaderCol-100 cursor-pointer p-2 pb-4 transition-all flex gap-1
+}
+
+.isNotActivePreviewModal {
+  @apply text-[18px] leading-[100%] font-normal text-textColor-100 cursor-pointer p-2 pb-4  transition-all border-b-[1.4px] border-b-transparent flex gap-1
+}
+
+.spanStyle {
+  @apply h-[20px] w-[20px] rounded-[4px] text-searchInputCol-100 text-[10px] font-medium leading-[100%] flex items-center justify-center
+}
+
+
+
+
+
 

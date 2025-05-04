@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "Floyd Miles",
+        "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+        "profile": "src/assets/images/profile_1.png",
+        "stars": "4"
+    },
+    {
+        "id": "2",
+        "name": "Ronald Richards",
+        "description": "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+        "profile": "src/assets/images/profile_2.png",
+        "stars": "3"
+    },
+    {
+        "id": "3",
+        "name": "Savannah Nguyen",
+        "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+        "profile": "src/assets/images/profile_3.png",
+        "stars": "5"
+    },
+    {
+        "id": "4",
+        "name": "Buck Trown",
+        "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+        "profile": "src/assets/images/profile-1.png",
+        "stars": "4"
+    }
+]

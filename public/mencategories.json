@@ -1,0 +1,114 @@
+[
+    {
+        "id": "1",
+        "image": "src/assets/images/Rectangle-20.jpeg",
+        "name": "Shirts",
+        "brand": "Gucci",
+        "price": "40000"
+    },
+    {
+        "id": "2",
+        "image": "src/assets/images/Rectangle-21.jpeg",
+        "name": "Printed-T-Shirts",
+         "brand": "mm's"
+,
+"price": "40000"    },
+    {
+        "id": "3",
+        "image": "src/assets/images/Rectangle-22.jpeg",
+        "name": "Plain-T-Shirts",
+         "brand": "Fendi",
+         "price": "40000"
+    },
+    {
+        "id": "4",
+        "image": "src/assets/images/Rectangle-23.jpeg",
+        "name": "Polo-T-Shirts",
+        "brand": "Nike",
+        "price": "40000"    
+    },
+    {
+        "id": "5",
+        "image": "src/assets/images/Rectangle-27.jpeg",
+        "name": "Hoodies & SweetShirts",
+         "brand": "Gucci",
+         "price": "40000"
+    },
+    {
+        "id": "6",
+        "image": "src/assets/images/Rectangle-26.jpeg",
+        "name": "Jeans",
+         "brand": "Fendi",
+         "price": "40000"
+    },
+    {
+        "id": "7",
+        "image": "src/assets/images/Rectangle-25.jpeg",
+        "name": "Active wear",
+         "brand": "Gucci",
+         "price": "40000"
+    },
+    {
+        "id": "8",
+        "image": "src/assets/images/Rectangle-24.jpeg",
+        "name": "Boxers",
+         "brand": "Nike",
+         "price": "40000"
+    },
+    {
+        "id": "9",
+        "image": "src/assets/images/Rectangle-20.jpeg",
+        "name": "Shirts",
+        "brand": "Gucci",
+        "price": "40000" 
+    },
+    {
+        "id": "10",
+        "image": "src/assets/images/Rectangle-21.jpeg",
+        "name": "Printed-T-Shirts",
+         "brand": "mm's",
+         "price": "40000" 
+    },
+    {
+        "id": "11",
+        "image": "src/assets/images/Rectangle-22.jpeg",
+        "name": "Plain-T-Shirts",
+         "brand": "Fendi",
+         "price": "40000" 
+    },
+    {
+        "id": "12",
+        "image": "src/assets/images/Rectangle-23.jpeg",
+        "name": "Polo-T-Shirts",
+         "brand": "Nike",
+         "price": "40000" 
+    },
+    {
+        "id": "13",
+        "image": "src/assets/images/Rectangle-27.jpeg",
+        "name": "Hoodies & SweetShirts",
+         "brand": "Gucci",
+         "price": "40000" 
+    },
+    {
+        "id": "14",
+        "image": "src/assets/images/Rectangle-26.jpeg",
+        "name": "Jeans",
+         "brand": "Fendi",
+         "price": "40000" 
+    },
+    {
+        "id": "15",
+        "image": "src/assets/images/Rectangle-25.jpeg",
+        "name": "Active wear",
+         "brand": "Gucci",
+         "price": "40000" 
+    },
+    {
+        "id": "16",
+        "image": "src/assets/images/Rectangle-24.jpeg",
+        "name": "Boxers",
+         "brand": "Nike",
+         "price": "40000" 
+    }
+]

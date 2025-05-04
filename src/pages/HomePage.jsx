@@ -3,6 +3,12 @@ import LandingPage from '../components/LandingPage'
 import DealCard from '../components/DealCard'
 import NewArrival from '../components/NewArrival'
 import BigSavingsContainer from '../components/BigSavingsContainer'
+import WeMadeContainer from '../components/WeMadeContainer'
+import CatergoryForMen from '../components/CatergoryForMen'
+import CategoryForWomen from '../components/CategoryForWomen'
+import TopBrand from '../components/TopBrand'
+import LimeLightCategory from '../components/LimeLightCategory'
+import FeedBack from '../components/FeedBack'
 
 export default function HomePage() {
   return (
@@ -18,7 +24,17 @@ export default function HomePage() {
 
       <BigSavingsContainer/>
 
-      
+      <WeMadeContainer/>
+
+      <CatergoryForMen/>
+
+      <CategoryForWomen/>
+
+      <TopBrand/>
+
+      <LimeLightCategory/>
+
+      <FeedBack/>
     </main>
   )
 }

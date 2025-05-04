@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "make": "Fabric",
+        "description": "Bio-washed-cotton"
+    },
+    {
+        "id": "2",
+        "make": "Pattern",
+        "description": "Printed"
+    },
+    {
+        "id": "3",
+        "make": "Fit",
+        "description": "Regular-fit"
+    },
+    {
+        "id": "4",
+        "make": "Neck",
+        "description": "Round Neck"
+    },
+    {
+        "id": "5",
+        "make": "Sleeve",
+        "description": "Half-sleeves"
+    },
+    {
+        "id": "6",
+        "make": "Style",
+        "description": "Casual Wear"
+    }
+]

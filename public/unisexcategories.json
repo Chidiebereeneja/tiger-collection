@@ -1,0 +1,114 @@
+[
+    {
+        "id": "1",
+        "image": "src/assets/images/unisex-1.jpeg",
+        "name": "Hoodies & SweetShirt",
+        "brand": "Nike",
+         "price": "40000"
+    },
+    {
+        "id": "2",
+        "image": "src/assets/images/unisex-3.jpeg",
+        "name": "Coats & Parkas",
+        "brand": "Gucci",
+         "price": "40000"
+    },
+    {
+        "id": "3",
+        "image": "src/assets/images/Tees-female.jpeg",
+        "name": "Tees & T-Shirts",
+        "brand": "Fendi",
+         "price": "40000"
+    },
+    {
+        "id": "4",
+        "image": "src/assets/images/unisex-4.jpeg",
+        "name": "Boxers",
+        "brand": "MM'S",
+         "price": "40000"
+    },
+    {
+        "id": "5",
+        "image": "src/assets/images/unisex-5.jpeg",
+        "name": "Hoodies & Similer",
+        "brand": "Nike",
+         "price": "40000"
+    },
+    {
+        "id": "6",
+        "image": "src/assets/images/unisex-6.jpeg",
+        "name": "Red Hoodie",
+        "brand": "Best win",
+         "price": "40000"
+    },
+    {
+        "id": "7",
+        "image": "src/assets/images/unisex-7.jpeg",
+        "name": "Active wear",
+        "brand": "Gucci",
+         "price": "40000"
+    },
+    {
+        "id": "8",
+        "image": "src/assets/images/unisex-8.jpeg",
+        "name": "Light Ass Coat",
+        "brand": "Termivas",
+         "price": "40000"
+    },
+    {
+        "id": "9",
+        "image": "src/assets/images/unisex-9.jpeg",
+        "name": "Hoodies & SweetShirt",
+        "brand": "Nike",
+         "price": "40000"
+    },
+    {
+        "id": "10",
+        "image": "src/assets/images/unisex-10.jpeg",
+        "name": "Coats & Parkas",
+        "brand": "Gucci",
+         "price": "40000"
+    },
+    {
+        "id": "11",
+        "image": "src/assets/images/unisex-11.jpeg",
+        "name": "Tees & T-Shirts",
+        "brand": "Fendi",
+         "price": "40000"
+    },
+    {
+        "id": "12",
+        "image": "src/assets/images/unisex-12.jpeg",
+        "name": "Boxers",
+        "brand": "MM'S",
+         "price": "40000"
+    },
+    {
+        "id": "13",
+        "image": "src/assets/images/product-5.png",
+        "name": "Hoodies & Similer",
+        "brand": "Nike",
+         "price": "40000"
+    },
+    {
+        "id": "14",
+        "image": "src/assets/images/profile-5.png",
+        "name": "Red Hoodie",
+        "brand": "Best win",
+         "price": "40000"
+    },
+    {
+        "id": "15",
+        "image": "src/assets/images/pre-image-2.jpeg",
+        "name": "Active wear",
+        "brand": "Gucci",
+         "price": "40000"
+    },
+    {
+        "id": "16",
+        "image": "src/assets/images/profile-1.png",
+        "name": "Light Ass Coat",
+        "brand": "Termivas",
+         "price": "40000"
+    }
+]
