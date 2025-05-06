@@ -8,6 +8,8 @@ import SelectCategory from "../pages/SelectCategory";
 import ProductPreview from "../pages/ProductPreview";
 import WishList from "../pages/WishList";
 import Cart from "../pages/Cart";
+import Checkout from "../pages/Checkout";
+import AccountUser from "../pages/AccountUser";
 
 export const router = createBrowserRouter([
     {
@@ -22,6 +24,8 @@ export const router = createBrowserRouter([
             {path: "productpreview", Component: ProductPreview},
             {path: "wishlist", Component: WishList},
             {path: "cart", Component: Cart},
+            {path: "checkout", Component: Checkout},
+            {path: "account", Component: AccountUser},
         ]
     }
 ])

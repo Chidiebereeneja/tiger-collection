@@ -8,13 +8,47 @@ import NotificationCount from './NotificationCount';
 import axios from 'axios';
 
 
+const setLocalStoragetTask = function(url) {
+   let  currentPage =  window.location.href.split("/").slice(-1).join("");
+   console.log(currentPage);
+   
+
+   if(currentPage === "") {
+     currentPage = "/"
+     localStorage.setItem("prev-page", currentPage)
+    } else {
+       localStorage.setItem("prev-page", currentPage)
+   }
+
+
+    window.location.href = url
+}
+
 
 export default function NavBar() {
     const [cateData, setCateData] = useState("")
+    // const navigate = useNavigate()
 
     const handleSelectedEvent = function(e) {
         localStorage.setItem("navCategory", e.target.value);
         window.location.href = "/selectcategory" 
+        
+    }
+
+    const handleNavigate = function(e) {
+        if(e.target.classList.contains("cart")) {
+            setLocalStoragetTask("/cart")
+        } else if(e.target.classList.contains("wishlist")){ 
+            setLocalStoragetTask("/wishlist")
+        } else{
+            if(e.target.id) {
+                setLocalStoragetTask("/account")
+
+            }
+
+
+             
+        }
         
     }
 
@@ -54,15 +88,15 @@ export default function NavBar() {
             </li>
 
             <li className='flex gap-[12px]'>
-                <p className="text-textColor-100 h-[30px] w-[30px] p-[7px] rounded-[8px] cursor-pointer bg-searchInputCol-100 relative ">
-                    <CiHeart className="inline-block absolute"/>
-                    <NotificationCount count={"2"}/>
+                <p className="text-textColor-100 h-[30px] w-[30px] p-[7px] rounded-[8px] cursor-pointer wishlist bg-searchInputCol-100 relative " onClick={handleNavigate}>
+                    <CiHeart className="inline-block absolute wishlist" />
+                    <NotificationCount count={"2"} checkclick={"wishlist"}/>
                 </p>
-                <RxPerson className="text-textColor-100 h-[30px] w-[30px] p-[7px] rounded-[8px] cursor-pointer bg-searchInputCol-100"/>
+                <RxPerson className="text-textColor-100 h-[30px] w-[30px] p-[7px] rounded-[8px] cursor-pointer bg-searchInputCol-100" onClick={handleNavigate} id="account"/>
 
-                <p className="text-textColor-100 h-[30px] w-[30px] p-[7px] rounded-[8px] cursor-pointer bg-searchInputCol-100  relative">
-                    <IoCartOutline className="inline-block absolute"/>
-                    <NotificationCount count={"2"}/>
+                <p className="text-textColor-100 h-[30px] w-[30px] p-[7px] rounded-[8px] cursor-pointer bg-searchInputCol-100  relative cart" onClick={handleNavigate}>
+                    <IoCartOutline className="inline-block absolute cart" />
+                    <NotificationCount count={"2"} checkclick={"cart"}/>
                 </p>
             </li>
         </ul>

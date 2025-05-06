@@ -12,7 +12,7 @@ import FeedBack from '../components/FeedBack'
 
 export default function HomePage() {
   return (
-    <main className='w-full flex flex-col gap-[80px]'>
+    <main className="w-full flex flex-col gap-[80px]">
       <LandingPage/>
 
       <section className="flex gap-4 self-center">

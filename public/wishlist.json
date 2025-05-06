@@ -5,6 +5,8 @@
         "color": "Blue",
         "qty": "5",
         "price": "3000",
+        "shipping": "2000",
+        "size": "XL",
         "image": "src/assets/images/Hoodies_female.png"
     },
     {
@@ -13,6 +15,8 @@
         "color": "Yellow",
         "qty": "2",
         "price": "3000",
+        "shipping": "",
+        "size": "XXL",
         "image": "src/assets/images/Coats_female.png"
     },
     {
@@ -20,7 +24,9 @@
         "name": "White Hoodies Long Sleeve",
         "color": "White",
         "qty": "10",
-        "price": "3000",
+        "price": "4500",
+        "shipping": "500",
+        "size": "L",
         "image": "src/assets/images/Tees-female.jpeg"
     },
     {
@@ -29,6 +35,8 @@
         "color": "Brown",
         "qty": "7",
         "price": "3000",
+        "shipping": "100",
+        "size": "M",
         "image": "src/assets/images/Hoodies_female.png"
     }
 ]

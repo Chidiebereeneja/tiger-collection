@@ -43,6 +43,8 @@ const WishListCard = function({data}){
 
 export default function WishList() {
     const [wishlistData, setWishlistData] = useState("");
+    const [prevPage, setPrevPage] = useState(localStorage.getItem("prev-page"))
+
 
     const fetchData = async function() {
         try {
@@ -58,11 +60,15 @@ export default function WishList() {
         fetchData()
     },[])
 
+    if(prevPage === "") {
+        setPrevPage("/")
+    }
+
 
   return (
     <div className="w-full flex justify-center mb-16">
         <div className="w-full max-w-[1200px]">
-            <PageTracker arr={["Home", "WishList"]}/>
+            <PageTracker arr={[prevPage, "WishList"]}/>
 
             <h1 className="text-[28px] font-normal leading-[33.5px] tracking-[2%] text-sectionHeaderCol-100 my-8 ">Wishlist</h1>
 
