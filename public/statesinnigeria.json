@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Abia",
+    "capital": "Umuahia",
+    "cities": ["Aba", "Ohafia", "Isiala Ngwa", "Bende"],
+    "shipping_amount": 7500
+  },
+  {
+    "name": "Adamawa",
+    "capital": "Yola",
+    "cities": ["Mubi", "Jimeta", "Ganye", "Numan"],
+    "shipping_amount": 6200
+  },
+  {
+    "name": "Akwa Ibom",
+    "capital": "Uyo",
+    "cities": ["Eket", "Ikot Ekpene", "Oron", "Abak"],
+    "shipping_amount": 9000
+  },
+  {
+    "name": "Anambra",
+    "capital": "Awka",
+    "cities": ["Onitsha", "Nnewi", "Ekwulobia", "Ihiala"],
+    "shipping_amount": 3000
+  },
+  {
+    "name": "Bauchi",
+    "capital": "Bauchi",
+    "cities": ["Azare", "Misau", "Jama'are", "Ningi"],
+    "shipping_amount": 4000
+  },
+  {
+    "name": "Bayelsa",
+    "capital": "Yenagoa",
+    "cities": ["Brass", "Ogbia", "Sagbama", "Ekeremor"],
+    "shipping_amount": 6000
+  },
+  {
+    "name": "Benue",
+    "capital": "Makurdi",
+    "cities": ["Otukpo", "Gboko", "Katsina-Ala", "Vandeikya"],
+    "shipping_amount": 8000
+  },
+  {
+    "name": "Borno",
+    "capital": "Maiduguri",
+    "cities": ["Bama", "Gwoza", "Dikwa", "Monguno"],
+    "shipping_amount": 4800
+  }
+]
+
+  

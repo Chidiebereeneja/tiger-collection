@@ -53,13 +53,13 @@ const OrderSummaryCard = function({data, setTotal}){
     return (
         <ul className="flex flex-col gap-6">
             {
-                data && data.map((obj) => <SummaryCard obj={obj} setTotal={setTotal} />)
+                data && data.map((obj) => <SummaryCard key={obj.id} obj={obj} setTotal={setTotal} />)
             }
         </ul>
     )
 }
 
-export default function OrderSumary({shipping}) {
+export default function OrderSumary({shipping, states}) {
     const [summaryData, setSummaryData] = useState("")
     const [total, setTotal] = useState(0)
     const [grandtotal, setGrandTotal] = useState(0)
@@ -86,7 +86,7 @@ export default function OrderSumary({shipping}) {
 
         <OrderSummaryCard data={summaryData} setTotal={setTotal}/>
 
-        <SummaryCalculation total={total} data={summaryData} shipping={shipping} setGrandTotal={setGrandTotal} grandtotal={grandtotal} />
+        <SummaryCalculation total={total} data={summaryData} shipping={shipping} states={states} setGrandTotal={setGrandTotal} grandtotal={grandtotal}/>
 
     </div>
   )

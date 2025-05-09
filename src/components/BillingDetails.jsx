@@ -6,7 +6,7 @@ import Label from './Label'
 import RadioContainer from './RadioContainer'
 
 
-const BillingForm = function({setShipping}) {
+const BillingForm = function({setShipping, states}) {
     const [firstName, setFirstName] = useState("")
     const [lastName, setLastName] = useState("")
     const [country, setcountry] = useState("")
@@ -22,7 +22,7 @@ const BillingForm = function({setShipping}) {
     return (
         <form className="flex flex-col gap-6">
         
-        <InputContainer setCityAddress={setCityAddress} setCompany={setCompany} setFirstName={setFirstName} setLastName={setLastName} setPhoneNumber={setPhoneNumber} setPostalCode={setPostalCode} setStreetAdress={setStreetAdress} setSuiteAddress={setSuiteAddress} setcountry={setcountry} setShipping={setShipping} />
+        <InputContainer setCityAddress={setCityAddress} setCompany={setCompany} setFirstName={setFirstName} setLastName={setLastName} setPhoneNumber={setPhoneNumber} setPostalCode={setPostalCode} setStreetAdress={setStreetAdress} setSuiteAddress={setSuiteAddress} setcountry={setcountry} setShipping={setShipping} states={states} />
 
           <div className="flex flex-col gap-5 border-b-[1px] border-checkoutCol-100 pb-8 ">
             <Button style={"bg-purpleCol-100 text-primaryCol-100 text-[18px] font-medium leading-[100%] h-[50px] w-[225px] rounded-[8px] "} contentStr={"Continue to delivery"} />
@@ -38,13 +38,13 @@ const BillingForm = function({setShipping}) {
     )
 }
 
-export default function BillingDetails({setShipping}) {
+export default function BillingDetails({setShipping, states}) {
   return (
     <div>
         <h1 className="text-[22px] font-normal leading-[33.5px] tracking-[2%] text-sectionHeaderCol-100
         my-4 mb-7 ">Billing Details</h1>
 
-        <BillingForm setShipping={setShipping}/>
+        <BillingForm setShipping={setShipping} states={states} />
     </div>
   )
 }

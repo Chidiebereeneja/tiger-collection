@@ -75,11 +75,11 @@ export default function NavBar() {
                 <AppLogo/>
             </li>
             <li className='flex gap-6'>
-                {["Home", "Men", "Women", "Unisex", "Categories"].map((item) => item === "Categories"? <select key={item} className="text-textColor-100 text-[16px] font-normal leading-[100%] w-[140px] cursor-pointer outline-none px-2" onChange={handleSelectedEvent}>
+                {["Home", "Men", "Women", "Unisex", "Categories"].map((item) => item === "Categories"? <select key={item} className="text-textColor-100 text-[16px] font-normal leading-[100%] w-[140px] cursor-pointer outline-none px-2 hover:text-sectionHeaderCol-100 hover:font-semibold transition-all" onChange={handleSelectedEvent}>
                     <option>{item}</option>
 
                     {cateData && cateData.map((obj) => <option key={obj.id}>{obj.name}</option>)}
-                </select> : <a key={item} href={item === "Home" ? "/" : ("/" + item.toLowerCase() + "products")} className="text-textColor-100 text-[16px] font-normal leading-[100%] cursor-pointer">{item}</a>)}
+                </select> : <a key={item} href={item === "Home" ? "/" : ("/" + item.toLowerCase() + "products")} className="text-textColor-100 text-[16px] font-normal leading-[100%] cursor-pointer hover:text-sectionHeaderCol-100 hover:font-semibold transition-all ">{item}</a>)}
             </li>
 
             <li className='flex items-center gap-2 border h-[30px] rounded-[8px] py-[2px] px[20px] bg-searchInputCol-100 '>

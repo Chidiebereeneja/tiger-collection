@@ -1,32 +1,4 @@
-import React, { useEffect, useState } from 'react'
-
-const statePrice = [
-    {
-        id: 1,
-        state: "Enugu",
-        amount: 100
-    },
-    {
-        id: 2,
-        state: "Imo",
-        amount: 2000
-    },
-    {
-        id: 3,
-        state: "Lagos",
-        amount: 6800
-    },
-    {
-        id: 4,
-        state: "Kaduna",
-        amount: 4000
-    },
-    {
-        id: 5,
-        state: "Abuja",
-        amount: 7200
-    }
-]
+import React, { useEffect} from 'react'
 
 const CalculationCard = function({obj, isItems = false}) {
     return (
@@ -42,15 +14,17 @@ const CalculationCard = function({obj, isItems = false}) {
     )
 }
 
-export default function SummaryCalculation({total, data, shipping, setGrandTotal, grandtotal})
+export default function SummaryCalculation({total, data, shipping, setGrandTotal, grandtotal, states})
  {
 
      
      
-     const [renderShipping] = statePrice && statePrice.filter((obj) => obj.state === shipping)
+     const [renderShipping] = states && states.filter((obj) => obj.name === shipping)
+     console.log(states, shipping);
+     
 
      useEffect(() => {
-        setGrandTotal(total + (renderShipping?.amount || 0))
+        setGrandTotal(total + (renderShipping?.["shipping_amount"] || 0))
      }, [renderShipping, total])
     
 
@@ -64,7 +38,7 @@ export default function SummaryCalculation({total, data, shipping, setGrandTotal
 
         <CalculationCard obj={{
             name: "Shipping",
-            amount: renderShipping?.amount || "0.00"
+            amount: renderShipping?.["shipping_amount"] || "0.00"
         }}/>
 
         <CalculationCard obj={{

@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function SectionHeader({str}) {
+export default function SectionHeader({str, isBorder = true}) {
   return (
-    <div className="border-l-[5px] py-1 border-purpleCol-100 pl-4">
-        <h2 className="text-[34px] text-sectionHeaderCol-100 font-normal leading-[33.5px] tracking-[2%] ">{str}</h2>
+    <div className={isBorder ? "border-l-[5px] py-1 border-purpleCol-100 font-medium pl-4 text-sectionHeaderCol-100 text-[30px]" :  "text-[28px] font-normal"}>
+        <h2 className="leading-[33.5px] text-sectionHeaderCol-100 tracking-[2%] ">{str}</h2>
     </div>
   )
 }

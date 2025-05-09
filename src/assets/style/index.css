@@ -211,6 +211,13 @@
   @apply text-[13px] font-bold leading-[100%] tracking-[2%] text-sectionHeaderCol-100 flex items-center gap-1
 }
 
+.activeAccModal {
+@apply bg-searchInputCol-100 border-b-[3px] border-b-sectionHeaderCol-100 font-normal text-[20px] leading-[33.5px] tracking-[2%] text-sectionHeaderCol-100 h-[55px] w-[176px] mb-[-1.8px] transition-all
+}
+
+.modalAccBtn {
+  @apply  font-normal text-[20px] leading-[33.5px] tracking-[2%] text-sectionHeaderCol-100 h-[55px] w-[176px] hover:bg-searchInputCol-100 hover:border-b-sectionHeaderCol-100 transition-all mb-[-1.8px] 
+}
 
 
 
