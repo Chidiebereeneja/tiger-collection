@@ -53,7 +53,7 @@ export default function AccountMyOrder() {
     }, [])
 
   return (
-    <aside className="col-span-5">
+    <aside className="col-span-5 mt-6">
         <SectionHeader str={"My Orders"} isBorder={false} />
 
         <section className="mt-8 mb-16">

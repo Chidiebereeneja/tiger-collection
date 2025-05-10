@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "name": "Collins Doe",
+        "email": "collinsdoe@gmail.com",
+        "password": "123456789",
+        "phone": "091928374848",
+        "address": "142 Enugu Road, Nsukka Enugu State Nigeria"
+    },
+    {
+        "id": "2",
+        "name": "Collins Doe",
+        "email": "collinsdoe@gmail.com",
+        "password": "123456789",
+        "phone": "091928374848",
+        "address": "142 Enugu Road, Nsukka Enugu State Nigeria"
+    },
+    {
+        "id": "3",
+        "name": "Collins Doe",
+        "email": "collinsdoe@gmail.com",
+        "password": "123456789",
+        "phone": "091928374848",
+        "address": "142 Enugu Road, Nsukka Enugu State Nigeria"
+    },
+    {
+        "id": "4",
+        "name": "Collins Doe",
+        "email": "collinsdoe@gmail.com",
+        "password": "123456789",
+        "phone": "091928374848",
+        "address": "142 Enugu Road, Nsukka Enugu State Nigeria"
+    }
+]

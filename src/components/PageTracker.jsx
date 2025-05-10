@@ -11,7 +11,8 @@ const pages = [
   {wishlist: "WishList", id: "wishlist"},
   {cart: "Add to Cart", id: "cart"},
   {checkout: "Checkout", id: "checkout"},
-  {account: "Account", id: "account"},
+  {myinfo: "My Info", id: "myinfo"},
+  {myorders: "My Orders", id: "myorders"},
   {['/']: "Home", id: "/"},
 ]
 
@@ -34,10 +35,9 @@ export default function PageTracker({arr}) {
         
         arr && arr.map((item, i) => {
           const [pagesArr] = pages.filter((obj) => obj[item.toLowerCase()])
-          
 
           return (
-            <p key={pagesArr?.id} className="flex gap-3 items-center">
+            <p key={pagesArr?.id + i}  className="flex gap-3 items-center">
               <span onClick={handleNavigate} id={pagesArr?.id} className={i === arr.length-1 ? "cursor-default" :"cursor-pointer" }>{pagesArr?.[item.toLowerCase()]}</span>
               {i === arr.length-1 ? "" :<IoIosArrowForward className="inline-block"/>}
             </p>

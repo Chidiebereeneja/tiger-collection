@@ -42,7 +42,7 @@ export default function NavBar() {
             setLocalStoragetTask("/wishlist")
         } else{
             if(e.target.id) {
-                setLocalStoragetTask("/account")
+                setLocalStoragetTask("/myorders")
 
             }
 

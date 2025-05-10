@@ -6,11 +6,8 @@ export default function AccountUser() {
   const prevPage = localStorage.getItem("prev-page")
   return (
     <div className="flex flex-col gap-10">
-        <PageTracker arr={[prevPage, "Account"]}/>
-
-        <div>
-            <AccountSideBar/>
-        </div>
+      <PageTracker arr={[prevPage, "Account", "My Orders"]}/>
+      <AccountSideBar/>
     </div>
   )
 }

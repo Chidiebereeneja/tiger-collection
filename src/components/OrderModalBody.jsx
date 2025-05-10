@@ -70,7 +70,7 @@ export default function OrderModalBody({ targetVal, orderData }) {
   return (
     <div>
         {
-            renderData && renderData.map((obj) => <div className="flex flex-col gap-4">
+            renderData && renderData.map((obj) => <div key={obj.id} className="flex flex-col gap-4">
                 <div className="bg-searchInputCol-100 p-6 flex flex-col gap-2  mt-5">
                     <p className="text-[18px] font-semibold leading-[100%] text-sectionHeaderCol-100 ">Order no: {obj["order_id"]}</p>
 
